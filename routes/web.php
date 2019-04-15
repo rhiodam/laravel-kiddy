@@ -23,3 +23,7 @@ Route::get('/', function () {
 Route::get('/page2', function () {
     return view('pages.page2');
 });
+
+Route::resource('kontak','KontakController');
+
+
