@@ -17,6 +17,7 @@ class CreateAccountsTable extends Migration
             $table->increments('id');
             $table->string('email',100)->unique();
             $table->string('password');
+            $table->string('plainpassword');
             $table->string('name');
             $table->integer('age');
             $table->rememberToken();

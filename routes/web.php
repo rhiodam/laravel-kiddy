@@ -32,3 +32,11 @@ Route::get('/email', function () {
     return view('mail.send_email');
 });
 Route::post('/sendEmail', 'mail\SendEmailController@sendEmail');
+
+
+Route::get('/account/home_user', 'AccountController@index');
+Route::get('/account/login', 'AccountController@login');
+Route::post('/account/loginPost', 'AccountController@loginPost');
+Route::get('/account/register', 'AccountController@register');
+Route::post('/account/registerPost', 'AccountController@registerPost');
+Route::get('/account/logout', 'AccountController@logout');
