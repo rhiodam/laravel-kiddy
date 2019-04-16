@@ -56,9 +56,10 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Manage <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Apk</a></li>
-                        <li><a href="#">User</a></li>
-                        <li><a href="#">..</a></li>
+                        <li><a href="/apk">Apk</a></li>
+                        <li><a href="/pubapk">Published Apk</a></li>
+                        <li><a href="/user">User</a></li>
+                        <li><a href="/email">Email</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#">Separated link</a></li>
                         <li role="separator" class="divider"></li>

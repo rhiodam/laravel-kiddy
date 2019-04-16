@@ -27,3 +27,8 @@ Route::get('/page2', function () {
 Route::resource('kontak','KontakController');
 
 
+//email
+Route::get('/email', function () {
+    return view('mail.send_email');
+});
+Route::post('/sendEmail', 'mail\SendEmailController@sendEmail');

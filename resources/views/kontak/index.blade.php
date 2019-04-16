@@ -5,14 +5,15 @@
         <!-- Add Your Content Inside -->
         <div class="content">
             <!-- Remove This Before You Start -->
-            <h1>Anak IT -  Table Kontak</h1>
+            <h1>Daftar Kontak</h1>
             @if(Session::has('alert-success'))
                 <div class="alert alert-success">
                     <strong>{{ \Illuminate\Support\Facades\Session::get('alert-success') }}</strong>
                 </div>
             @endif
             <hr>
-            <table class="table table-bordered">
+            <div class="table-responsive">
+            <table class="table table-hover table-striped table-bordered">
                 <thead>
                 <tr>
                     <th>No.</th>
@@ -45,6 +46,7 @@
                 @endforeach
                 </tbody>
             </table>
+            </div>
         </div>
         <!-- /.content -->
     </section>
